@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
             try {
                 //Set up the translation call URL
-                String yandexKey = "trnsl.1.1.20170701T160104Z.bc86f462484539e5.3695ca00d3571e8ac5c9a823620521e1311428cd";
+                String yandexKey = "YOUR_KEY";
                 String yandexUrl = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + yandexKey
                         + "&text=" + textToBeTranslated + "&lang=" + languagePair;
                 URL yandexTranslateURL = new URL(yandexUrl);
